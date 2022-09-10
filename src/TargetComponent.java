@@ -1,9 +1,9 @@
 // @ author Soren Caraan
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.event.*;
+import javax.swing.JComponent;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
 
 public class TargetComponent extends JComponent
 {

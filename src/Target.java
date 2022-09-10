@@ -1,12 +1,13 @@
 // @author Soren Caraan
 
-import java.awt.geom.*;
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.geom.Ellipse2D;
+
 
 public class Target
 {
-    private int x, y, z, e;
+    private final int x, y, z, e;
 	
 	public Target (int xTop, int yBottom, int zSide, int eSide) 
 	{
