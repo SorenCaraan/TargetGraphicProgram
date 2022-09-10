@@ -8,7 +8,7 @@ public class TargetViewer
    {
        JFrame targFrame = new JFrame();
 
-       targFrame.setSize(200,300);
+       targFrame.setSize(300,300);
        targFrame.setTitle("Target Drawing");
        targFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
